@@ -1,0 +1,20 @@
+STAGE 13 — IMMUNOLOGICAL MEMORY REPORT
+=======================================================
+
+Index size              : 100,000 historical disruptions
+Dimensions              : 8 features
+Index type              : FAISS IndexFlatL2 (exact search)
+Anomalies queried       : 1133
+Top-K retrieved per query: 3
+
+Aggregate retrieval results:
+  Avg match distance    : 0.6432
+  Avg recovery days     : 93.0
+  Top response type     : Alternative Supplier
+  Top disruption type   : Labor Strike
+
+Immune analogy:
+  Memory B-cells (FAISS vectors) recognise similar antigens (disruption
+  signatures) and activate a targeted response faster than the innate
+  immune system could derive from scratch. Each pipeline run that detects
+  anomalies adds new signatures to the index (clonal selection).

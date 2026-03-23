@@ -1,0 +1,14 @@
+PPO Routing Agent — Evaluation Report
+======================================
+Evaluated on 500 random disruption scenarios.
+
+Metric                            PPO Agent    Dijkstra
+-------------------------------------------------------
+Success Rate                         100.0%      100.0%
+Avg Hops (on success)                  2.00        2.00
+Avg Risk of Chosen Route              0.868       0.867
+
+Interpretation:
+  PPO learns to balance path length vs route risk.
+  Dijkstra optimises purely for shortest path (hops).
+  PPO may choose slightly longer paths to avoid high-risk nodes.
